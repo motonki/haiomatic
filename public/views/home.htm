@@ -1,0 +1,12 @@
+<table class="table table-condensed">
+	<tr>
+		<th> Laitapa tähän pelaajien nimet</th>
+	</tr>
+	<tr>
+		<td> <input ng-model="players.p1" placeholder="Homonaama 1"></td>
+		<td> <input ng-model="players.p2"></td>
+		<td> <input ng-model="players.p3"></td>
+		<td> <input ng-model="players.p4"></td>
+	</tr>
+</table> <br>
+<a href="/play" ng-click="setNames(players)" class="btn btn-success">Pelaa!</a>

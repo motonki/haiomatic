@@ -1,0 +1,1 @@
+angular.module('hai', ['ngRoute','appRoutes', 'haiCtrl', 'laskuCtrl', 'HaiService']);
