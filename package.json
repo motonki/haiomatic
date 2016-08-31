@@ -8,6 +8,9 @@
 		"method-override" : "~2.0.0",
 		"bower" : "0.6.x"
 	},
+	"scripts":{
+		"postinstall":"bower install"
+	},
 	"engines": {
 		"node": "4.5.0"
 	}
