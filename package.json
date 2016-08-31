@@ -12,7 +12,6 @@
 		"postinstall" : "bower install"
 	},
 	"engines": {
-		"node": "5.11.1",
-		"npm": "3.8.x"
+		"node": "5.11.1"
 	}
 }
