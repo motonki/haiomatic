@@ -6,11 +6,10 @@
 		"mongoose" : "~3.8.15",
 		"body-parser" : "~1.4.2",
 		"method-override" : "~2.0.0",
-		"bower" : "0.6.x",
-		"grunt": "~0.4.5"
+		"bower" : "0.6.x"
 	},
 	"scripts" : {
-		"postinstall" : "bower install && grunt build"
+		"postinstall" : "bower install"
 	},
 	"engines": {
 		"node": "5.11.1",
