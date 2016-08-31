@@ -12,6 +12,6 @@
 		"postinstall" : "bower cache clean && bower install"
 	},
 	"engines": {
-		"node": "4.x.x"
+		"node": "4.5.0"
 	}
 }
